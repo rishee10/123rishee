@@ -1,0 +1,8 @@
+list = [23, 13, 45, 66, 78]
+list2 = []
+for i in list:
+    sum = 0
+    for digit in str(i):
+        sum += int(digit)
+    list2.append(sum)
+print(list2)
